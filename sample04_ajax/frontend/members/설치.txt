@@ -1,0 +1,17 @@
+npm create vite@latest
+npm install
+npm i react-router - dom
+npm i axios
+npm install tailwindcss @tailwindcss/vite
+
+- vite.config.js파일에 등록
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+})
+- index.css 파일에 추가
+@import "tailwindcss";
+
+//taillwindcss 사이트
+https://tailwindcss.com/docs/installation/framework-guides
